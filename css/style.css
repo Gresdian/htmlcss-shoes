@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;
+}
+
+body{
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 25px;
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.container{
+   width: 100%;
+}
+
+.img-container{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col{
+    width: 100%;
+}
+#shoes1{
+    background-color: red;
+}
+
+#shoes2{
+    background-color: green;
+}
+
+#shoes3{
+    background-color: yellow;
+}
+
